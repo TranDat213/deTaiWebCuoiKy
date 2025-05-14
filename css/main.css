@@ -186,9 +186,6 @@ display: block;
 .row-sp{
     display: flex;
     flex-wrap: wrap;
-    
-    /* width: 100%; */
-    
 }
 .box-sp{
     position: relative;
