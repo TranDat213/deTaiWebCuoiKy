@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menurpw{
+            overflow: hidden;
+            background-color:black;
+        }
+        .menurpw a{
+            text-decoration: none;
+            color: white;
+            float: left;
+            display: block;
+            text-align: center;
+            line-height: 30px;
+            padding: 20px;
+            font-weight: bold;
+        }
+        .menurpw a:hover{
+            background-color: aquamarine;
+            color: black;
+        }
+        @media screen and (max-width:600px){
+            .menurpw a{
+               clear: left;
+               border: 1px solid yellow;
+               width: 100%;
+               text-align: left;
+            }
+            .menurpw a:hover{
+                background-color: red;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="menurpw">
+       <div class="list"> <a href="#">Home</a></div>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </div>
+</body>
+</html>

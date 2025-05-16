@@ -1,0 +1,81 @@
+.menu{
+    
+    list-style: none;
+    display: flex;
+    min-height: 30px;
+    justify-content: center;
+    width: 400px;
+}
+.menu li{
+    background-color: aquamarine;
+    line-height: 30px;
+    width: auto;
+    height: 40px;
+    text-align: center;
+    width: 70px;
+}
+.menu li a{
+    text-decoration: none;
+    
+}
+
+.menu li a:hover{
+    color: white;
+    font-weight: bold;
+}
+.menu li:hover{
+    background-color: yellow;
+    border-radius: 5px;
+}
+.menu2{
+    background-color: aquamarine;
+    list-style: none;
+    padding: 0;
+    width: 250px;
+}
+.menu2 li{
+    line-height: 30px;
+    height: 40px;
+    border-bottom: solid;
+}
+.menu2 li a{
+    text-decoration: none;
+}
+.menu2 li a:hover{
+    color:darksalmon
+}
+.menu2 li:hover{
+    filter: brightness(130%);
+    background-color: blue;
+    
+}
+.box{
+    width: 60px;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 10px;
+    border-color: green;
+    border-style: solid;
+}
+#psrlative{
+    position: relative;
+    top: 100px;
+    background-color: bisque;
+    font-family: "Noto Sans Tai Viet", sans-serif;
+}

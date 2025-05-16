@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal7</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+
+</head>
+<body>
+    <header id="header">
+        <div class="menu-wrapper">
+        <div id="menu">
+            <a href="index.html"><img src="../image/logo.png" alt=""></a>
+            <div id="search">
+                <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                <button type="submit" ><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <div id="login">
+                <a href="#"> <i class="fa-regular fa-circle-user"></i>&nbsp;&nbsp;Đăng nhập/Đăng ký<br></a> 
+            </div>
+            <div id="giohang">
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp;Giỏ hàng</a>
+            </div>
+              <div id="menu-tonge" onclick="tonggleMenu()">
+            &#9776;
+             </div>
+        </div>
+       
+        <div id="menungang">
+             
+            <div class="listngang">
+            <ul>
+                <li id="dmsp"><a href="#">Danh mục sản phẩm&nbsp;<i class="fa-solid fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="../html/phong_ngu.html">Phòng ngủ</a></li>
+                    <li><a href="../html/phong_khach.html">Phòng khách</a></li>
+                    <li><a href="../html/phong_an.html">Phòng ăn</a></li>
+                    
+                </ul></li>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="../html/cuahang.html">Cửa hàng</a></li>
+                <li><a href="../html/lienhe.html">Liên hệ</a></li>
+                <li><a href="../html/vechungtoi.html">Về chúng tôi</a></li>
+                <li><a href="../html/lab_thuchanh.html">Lab thực hành</a></li>
+            </ul>
+            </div>
+            
+        </div>
+    </header>
+    <div class="slideshow">
+        <div class="banner">
+            <img src="../image/slideshow_3.png" alt="">
+
+        </div>
+        <div class="banner">
+            <img src="../image/banner2.png" alt="">
+
+        </div>
+        <div class="banner">
+            <img src="../image/banner3.png" alt="">
+
+        </div>
+        <div class="banner">
+            <img src="../image/banner4.png" alt="">
+
+        </div>
+         <div class="banner">
+            <img src="../image/banner.png" alt="">
+
+        </div>
+         <a class="prev" onclick="plusSlides(-1)"><</a>
+      <a class="next" onclick="plusSlides(1)">></a>
+    </div>
+     <br />
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    
+    <main class="main">
+        <div class="spmoi">
+            
+            <div class="row-sp">
+                <!-- <div class="haisp"> -->
+                <div class="box-sp">
+                    <button><a href="../html/sp_tugiay.html"><table>
+                        <tr>
+                            <td><img src="../image/tugiay.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">TỦ GIÀY - TỦ TRANG TRÍ</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">2.200.000VNĐ</td>
+                                    <td class="oldprice">2.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 7</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/banghescania.html"><table>
+                        <tr>
+                            <td><img src="../image/ban_an_trang.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">BỘ BÀN ĂN SCANIA (MẶT VÂN ĐÁ, 140)</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">5.990.000VNĐ</td>
+                                    <td class="oldprice">6.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 10</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+            
+                <div class="box-sp">
+                    <button><a href="../html/tutivi.html"><table>
+                        <tr>
+                            <td><img src="../image/bantv.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">TỦ TI VI- TỦ KỆ</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">2.550.000VNĐ</td>
+                                    <td class="oldprice">3.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 1</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/giuong-goxam.html"><table>
+                        <tr>
+                            <td><img src="../image/giuong_xam.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">GIƯỜNG GỖ XÁM - GIƯỜNG NGỦ</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">6.200.000VNĐ</td>
+                                    <td class="oldprice">6.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 22</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+            
+           
+        </div>
+        <div class="spgoiy">
+            
+            <div class="row-sp">
+                
+                <div class="box-sp">
+                    <button><a href="../html/tu_qao_go.html"><table>
+                        <tr>
+                            <td><img src="../image/tudo_da.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">TỦ QUẦN ÁO - TỦ GỖ</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">4.440.000VNĐ</td>
+                                    <td class="oldprice">5.199.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 8</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/bghe_khach.html"><table>
+                        <tr>
+                            <td><img src="../image/ban_an_be.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">BỘ BÀN GHẾ PHÒNG ĂN - BÀN ĂN</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">1.997.000VNĐ</td>
+                                    <td class="oldprice">2.222.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 65</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+            
+            
+                <div class="box-sp">
+                    <button><a href="../html/giuong_ngu_mun.html"><table>
+                        <tr>
+                            <td><img src="../image/giuong_be.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">GIƯỜNG NGỦ GỖ MUN - GIƯỜNG GẦM CAO</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">6.200.000VNĐ</td>
+                                    <td class="oldprice">8.699.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 98</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/ban_ghe_sofa.html"><table>
+                        <tr>
+                            <td><img src="../image/ban_ghe_sofa.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">BỘ BÀN GHẾ SOFA - GHẾ NỆM</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">5.700.000VNĐ</td>
+                                    <td class="oldprice">6.199.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 4</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+
+                
+            </div>
+        </div>
+        <div class="spgiatot">
+           
+            <div class="row-sp">
+               
+                <div class="box-sp">
+                    <button><a href="../html/ban_an_nau.html"><table>
+                        <tr>
+                            <td><img src="../image/ban_an_nau.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">BỘ BÀN 4 GHẾ - BÀN ĂN</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">6.899.000VNĐ</td>
+                                    <td class="oldprice">7.000.009VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 33</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/giuong_tudo.html"><table>
+                        <tr>
+                            <td><img src="../image/giuong_tudo.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">COMBO GIƯỜNG NGỦ - GIƯỜNG NGỦ</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">8.200.000VNĐ</td>
+                                    <td class="oldprice">8.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 12</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+            
+            
+                <div class="box-sp">
+                    <button><a href="../html/sofatrang.html"><table>
+                        <tr>
+                            <td><img src="../image/sofa-trang-small.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">SOFA MINI - GHẾ NỆM</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">1.113.000VNĐ</td>
+                                    <td class="oldprice">2.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 35</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/tudo_nau.html"><table>
+                        <tr>
+                            <td><img src="../image/tudo_nau.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">TỦ GỖ 2M - TỦ ĐỒ</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">6.200.000VNĐ</td>
+                                    <td class="oldprice">7.000.000VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 77</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+            
+           
+        </div>
+        <div class="sphotdeal">
+          
+            <div class="row-sp">
+                
+                <div class="box-sp">
+                    <button><a href="../html/sofa_dai.html"><table>
+                        <tr>
+                            <td><img src="../image/sofatrangbig.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">SOFA DÀI - GHẾ NỆM</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">4.200.000VNĐ</td>
+                                    <td class="oldprice">6.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 44</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/sofa_xam.html"><table>
+                        <tr>
+                            <td><img src="../image/sofaxam.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">BỘ BÀN GHẾ SOFA DÀI - GHẾ NỆM</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">5.555.000VNĐ</td>
+                                    <td class="oldprice">8.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 73</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+            
+            
+                <div class="box-sp">
+                    <button><a href="../html/ban_ghe_lun.html"><table>
+                        <tr>
+                            <td><img src="../image/banan2.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">BỘ BÀN GHẾ CỔ LÙN - BÀN ĂN</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">3.999.000VNĐ</td>
+                                    <td class="oldprice">5.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 11</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/giuong_gotram.html"><table>
+                        <tr>
+                            <td><img src="../image/giuong3.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">GIƯỜNG GỖ TRẦM - GIƯỜNG NGỦ</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">7.200.000VNĐ</td>
+                                    <td class="oldprice">9.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 5</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+           
+            </div>
+        </div>
+        <!-- THEM -->
+        <div class="sphotdeal">
+          
+            <div class="row-sp">
+                
+                <div class="box-sp">
+                    <button><a href="../html/ban_ghe201.html"><table>
+                        <tr>
+                            <td><img src="../image/banghe_201nau.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">BÀN GHẾ NÂU 201 - BÀN ĂN</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">4.700.000VNĐ</td>
+                                    <td class="oldprice">6.699.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 334</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="./giuong_doi.html"><table>
+                        <tr>
+                            <td><img src="../image/giuong-doi.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">GIƯỜNG ĐÔI 2 MÓN - GIƯỜNG NGỦ</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">7.555.000VNĐ</td>
+                                    <td class="oldprice">8.599.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 23</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+            
+            
+                <div class="box-sp">
+                    <button><a href="./tudo_201.html"><table>
+                        <tr>
+                            <td><img src="../image/tudo_trang201.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">Tủ Quần Áo Ubeda Ngăn Kệ 201</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">6.999.000VNĐ</td>
+                                    <td class="oldprice">8.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 311</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/giuong_co_hoc.html"><table>
+                        <tr>
+                            <td><img src="../image/giuongco_hoc.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">Giường Ngủ Gỗ Có Hộc & Ổ Điện</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">8.200.000VNĐ</td>
+                                    <td class="oldprice">9.222.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 235</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+           
+            </div>
+        </div>
+        <div class="sphotdeal">
+          
+            <div class="row-sp">
+                
+                <div class="box-sp">
+                    <button><a href="../html/banghe_601.html"><table>
+                        <tr>
+                            <td><img src="../image/banan_601.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">Bộ Bàn Ăn Gỗ Cao Su Tự Nhiên 601</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">5.200.000VNĐ</td>
+                                    <td class="oldprice">7.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 114</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/tudo_3canh.html"><table>
+                        <tr>
+                            <td><img src="../image/set_tu_go601.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">Set Tủ Quần Áo Gỗ 601 3 Cánh</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">9.989.898VNĐ</td>
+                                    <td class="oldprice">10.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 3</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+            
+            
+                <div class="box-sp">
+                    <button><a href="../html/banghe_basic.html"><table>
+                        <tr>
+                            <td><img src="../image/ban_ghebasic.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">BỘ BÀN GHẾ BASIC - BÀN ĂN</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">6.999.000VNĐ</td>
+                                    <td class="oldprice">8.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 211</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+                <div class="box-sp">
+                    <button><a href="../html/banghe_602.html"><table>
+                        <tr>
+                            <td><img src="../image/ban_ghe_602.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td class="tensp">Bộ Bàn Ăn Gỗ Cao Su Tự Nhiên 602</td>
+                        </tr>
+                        <tr>
+                            <td><table>
+                                <tr>
+                                    <td class="newprice">4.200.000VNĐ</td>
+                                    <td class="oldprice">5.999.999VNĐ</td>
+                                </tr>
+                                <tr>
+                                    <td class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></td>
+                                    <td>Đã bán 105</td>
+                                </tr>
+                            </table></td>
+                        </tr>
+                    </table></a> </button>
+                   
+                </div>
+           
+            </div>
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <div class="box-footer">
+            <div class="hai-box">
+            <div class="dvu">
+                <img src="../image/v19_342.png" alt="">
+                <p>Giao hàng hỏa tốc</p>Miễn phí
+            </div>
+            <div class="dvu">
+                <img src="../image/v25_1705.png" alt="">
+                <p>Bảo hành 2 năm</p>Miễn phí
+            </div>
+            </div>
+         <div class="hai-box">
+            <div class="dvu">
+                <img src="../image/v25_1706.png" alt="">
+                <p>Tư vấn thiết kế</p>Miễn phí
+            </div>
+            <div class="dvu">
+                <img src="../image/shopping-cart.png" alt="" style="opacity: 0.5;">
+                <p>Đổi trả 1-1</p>Miễn phí
+            </div>
+          </div>
+        </div>
+        <div class="support">
+            <div class="cot-thongtin">
+                <h4>NỘI THẤT Internal7</h4>
+                <p>Nội Thất Internal7 là thương hiệu đến từ Bình Thuận
+                     với gần 40 năm kinh nghiệm trong việc sản xuất và xuất khẩu nội thất đạt chuẩn quốc tế.</p>
+            </div>
+            <div class="cot-thongtin">
+                <h4>DICH VỤ</h4>
+                <ul class="menu-doc-dvu">
+                    <li><a href="#">Chính Sách Bán Hàng</a></li>
+                    <li><a href="#">Chính Sách Giao Hàng & Lắp Đặt</a></li>
+                    <li><a href="#">Chính Sách Bảo Hành & Bảo Trì</a></li>
+                    <li><a href="#">Chính Sách Đổi Trả  </a></li>
+                    <li><a href="#">Khách Hàng Thân Thiết</a></li>
+                    <li><a href="#">Chính Sách Đối Tác Bán Hàng</a></li>
+                </ul>
+            </div>
+            <div class="cot-thongtin">
+                <h4>THÔNG TIN LIÊN HỆ</h4>
+                <ul class="menu-doc-dvu">
+                    <li><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<strong>[Khu vực Tp.Hồ Chí Minh]</strong>
+                         180 Cao Lỗ,Phường 4,Quận 8, Tp.HCM <p>Hotline: 0292928921</p> </li>
+                    <li><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<strong>[Khu vực Hà Nội]</strong> 
+                        58 P. Quốc Tử Giám, Văn Miếu, Đống Đa, Hà Nội<p>Hotline: 0292928922</p></li>
+                    <li><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;0292928923 (Hotline/Zalo) <p>&nbsp;&nbsp;0292928924 (Đội giao hàng)</p></li>
+                    <li><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;trannguyendat2003@gmail.com</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="social">
+            <div class="logo-social">
+                <a href="#"><img src="../image/logoFB.png" alt=""></a>
+            </div>
+            <div class="logo-social">
+                <a href="#"><img src="../image/logoInsta.png" alt=""></a>
+            </div>
+            <div class="logo-social">
+                <a href="#"><img src="../image/logoTikTok.png" alt=""></a>
+            </div>
+        </div>
+            <hr>
+        <div class="TTsinhvien">
+            <table >
+                <tr>
+                    <td style="width: 33%; text-align: center;">MSSV:DH52200495</td>
+                    <td  style="width: 33%; text-align: center;">Họ Tên: Trần Nguyễn Đạt</td>
+                    <td  style="width: 33%; text-align: center;"> Lớp:D22_TH12</td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+
+
+  <script>
+function tonggleMenu() {
+    const menu = document.getElementById("menungang");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
+
+window.addEventListener("resize",function(){
+    var menu=document.getElementById("menungang");
+    if(window,innerWidth>1023){
+        menu.style.display="block";
+    }else{
+        menu.style.display="none";
+    }
+})
+
+let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName('banner');
+        let dots = document.getElementsByClassName('dot');
+        if (n > slides.length) slideIndex = 1;
+        if (n < 1) slideIndex = slides.length;
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(' active', '');
+        }
+        slides[slideIndex - 1].style.display = 'block';
+        dots[slideIndex - 1].className += ' active';
+      }
+
+      setInterval(() => {
+            plusSlides(1);
+      }, 2000);
+</script>
+</body>
+</html>
